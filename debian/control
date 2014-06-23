@@ -1,0 +1,15 @@
+Source: libapache-mod-ident
+Section: web
+Priority: optional
+Maintainer: Alex Bligh <alex@alex.org.uk>
+Build-Depends: debhelper (>= 4.0.0), dh-apache2, apache2-dev (>= 2.2.3), dpatch
+Standards-Version: 3.7.2
+
+Package: libapache2-mod-ident
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Module to handle RFC 1413 ident requests
+ This package provides the ident module for the Apache 2 webserver.
+ This module allows apache2 to issue RFC 1143 ident requests to
+ the originator of the query. This is a standard Apache 2 module but
+ is not included in the standard Ubuntu build.

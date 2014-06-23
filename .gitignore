@@ -1,0 +1,12 @@
+apache2.0/.libs/
+apache2.0/mod_ident.la
+apache2.0/mod_ident.lo
+apache2.0/mod_ident.slo
+debian/files
+debian/libapache2-mod-ident.debhelper.log
+debian/libapache2-mod-ident.postrm.debhelper
+debian/libapache2-mod-ident.prerm.debhelper
+debian/libapache2-mod-ident.substvars
+debian/libapache2-mod-ident/
+patch-stamp
+*~

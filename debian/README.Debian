@@ -1,0 +1,7 @@
+## To activate mod_ident, do:
+
+a2enmod ident && /etc/init.d/apache2 force-reload
+
+This is a repackaging of the standard apache2 mod_ident
+module (taken from 2.4.7 sources) as the standard Ubuntu
+package on 14.04 does not include it.
