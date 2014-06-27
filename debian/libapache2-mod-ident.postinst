@@ -1,0 +1,15 @@
+#!/bin/sh
+
+set -e
+
+# LP#1333388 - apache2.2 still has the .load marked as a conffile.
+# Replaces: + Breaks: marks it obsolete but doesn't appear to make dpkg install
+# the config file.  This is the least bad fix I can think of.
+LOADFILE=/etc/apache2/mods-available/ident.load
+if [ ! -f ${LOADFILE} ] ; then
+    echo "LoadModule ident_module /usr/lib/apache2/modules/mod_ident.so" > ${LOADFILE}
+fi
+
+#DEBHELPER#
+
+exit 0
