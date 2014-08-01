@@ -1,18 +1,18 @@
 #!/usr/bin/make -f
-# debian rules file for mod_ident
+# debian rules file for mod_ident2
 
 include /usr/share/dpatch/dpatch.make
 
 build: patch-stamp
 	dh_testdir
 
-	apxs2 -c apache2.0/mod_ident.c
+	apxs2 -c apache2.0/mod_ident2.c
 
 
 clean: unpatch
 	dh_testdir
 	dh_testroot
-	rm -f mod_ident.o
+	rm -f mod_ident2.o
 	cd apache2.0 && rm -rf .libs *.o *.lo *.la *.slo
 	dh_clean 
 

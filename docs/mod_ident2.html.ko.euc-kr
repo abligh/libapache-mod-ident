@@ -5,7 +5,7 @@
               This file is generated from xml source: DO NOT EDIT
         XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
       -->
-<title>mod_ident - Apache HTTP Server</title>
+<title>mod_ident2 - Apache HTTP Server</title>
 <link href="../style/css/manual.css" rel="stylesheet" media="all" type="text/css" title="Main stylesheet" />
 <link href="../style/css/manual-loose-100pc.css" rel="alternate stylesheet" media="all" type="text/css" title="No Sidebar - Default font size" />
 <link href="../style/css/manual-print.css" rel="stylesheet" media="print" type="text/css" /><link rel="stylesheet" type="text/css" href="../style/css/prettify.css" />
@@ -22,17 +22,17 @@
 <div id="path">
 <a href="http://www.apache.org/">Apache</a> &gt; <a href="http://httpd.apache.org/">HTTP Server</a> &gt; <a href="http://httpd.apache.org/docs/">Documentation</a> &gt; <a href="../">Version 2.4</a> &gt; <a href="./">모듈</a></div>
 <div id="page-content">
-<div id="preamble"><h1>아파치 모듈 mod_ident</h1>
+<div id="preamble"><h1>아파치 모듈 mod_ident2</h1>
 <div class="toplang">
-<p><span>가능한 언어: </span><a href="../en/mod/mod_ident.html" hreflang="en" rel="alternate" title="English">&nbsp;en&nbsp;</a> |
-<a href="../fr/mod/mod_ident.html" hreflang="fr" rel="alternate" title="Fran&#231;ais">&nbsp;fr&nbsp;</a> |
-<a href="../ja/mod/mod_ident.html" hreflang="ja" rel="alternate" title="Japanese">&nbsp;ja&nbsp;</a> |
-<a href="../ko/mod/mod_ident.html" title="Korean">&nbsp;ko&nbsp;</a></p>
+<p><span>가능한 언어: </span><a href="../en/mod/mod_ident2.html" hreflang="en" rel="alternate" title="English">&nbsp;en&nbsp;</a> |
+<a href="../fr/mod/mod_ident2.html" hreflang="fr" rel="alternate" title="Fran&#231;ais">&nbsp;fr&nbsp;</a> |
+<a href="../ja/mod/mod_ident2.html" hreflang="ja" rel="alternate" title="Japanese">&nbsp;ja&nbsp;</a> |
+<a href="../ko/mod/mod_ident2.html" title="Korean">&nbsp;ko&nbsp;</a></p>
 </div>
 <table class="module"><tr><th><a href="module-dict.html#Description">설명:</a></th><td>RFC 1413 ident 검색</td></tr>
 <tr><th><a href="module-dict.html#Status">상태:</a></th><td>Extension</td></tr>
 <tr><th><a href="module-dict.html#ModuleIdentifier">모듈명:</a></th><td>ident_module</td></tr>
-<tr><th><a href="module-dict.html#SourceFile">소스파일:</a></th><td>mod_ident.c</td></tr>
+<tr><th><a href="module-dict.html#SourceFile">소스파일:</a></th><td>mod_ident2.c</td></tr>
 <tr><th><a href="module-dict.html#Compatibility">지원:</a></th><td>아파치 2.1 이후부터</td></tr></table>
 <h3>요약</h3>
 
@@ -58,7 +58,7 @@
 <tr><th><a href="directive-dict.html#Default">기본값:</a></th><td><code>IdentityCheck Off</code></td></tr>
 <tr><th><a href="directive-dict.html#Context">사용장소:</a></th><td>주서버설정, 가상호스트, directory</td></tr>
 <tr><th><a href="directive-dict.html#Status">상태:</a></th><td>Extension</td></tr>
-<tr><th><a href="directive-dict.html#Module">모듈:</a></th><td>mod_ident</td></tr>
+<tr><th><a href="directive-dict.html#Module">모듈:</a></th><td>mod_ident2</td></tr>
 <tr><th><a href="directive-dict.html#Compatibility">지원:</a></th><td>아파치 2.1부터 core에서 빠져 나왔다</td></tr>
 </table>
     <p>이 지시어는 <a href="http://www.ietf.org/rfc/rfc1413.txt">RFC
@@ -85,7 +85,7 @@
 <tr><th><a href="directive-dict.html#Default">기본값:</a></th><td><code>IdentityCheckTimeout 30</code></td></tr>
 <tr><th><a href="directive-dict.html#Context">사용장소:</a></th><td>주서버설정, 가상호스트, directory</td></tr>
 <tr><th><a href="directive-dict.html#Status">상태:</a></th><td>Extension</td></tr>
-<tr><th><a href="directive-dict.html#Module">모듈:</a></th><td>mod_ident</td></tr>
+<tr><th><a href="directive-dict.html#Module">모듈:</a></th><td>mod_ident2</td></tr>
 </table>
     <p>이 지시어는 ident 요청의 시간제한을 지정한다. 기본값은
     네트웍 지연을 고려하여 <a href="http://www.ietf.org/rfc/rfc1413.txt">RFC 1413</a>이
@@ -95,14 +95,14 @@
 </div>
 </div>
 <div class="bottomlang">
-<p><span>가능한 언어: </span><a href="../en/mod/mod_ident.html" hreflang="en" rel="alternate" title="English">&nbsp;en&nbsp;</a> |
-<a href="../fr/mod/mod_ident.html" hreflang="fr" rel="alternate" title="Fran&#231;ais">&nbsp;fr&nbsp;</a> |
-<a href="../ja/mod/mod_ident.html" hreflang="ja" rel="alternate" title="Japanese">&nbsp;ja&nbsp;</a> |
-<a href="../ko/mod/mod_ident.html" title="Korean">&nbsp;ko&nbsp;</a></p>
+<p><span>가능한 언어: </span><a href="../en/mod/mod_ident2.html" hreflang="en" rel="alternate" title="English">&nbsp;en&nbsp;</a> |
+<a href="../fr/mod/mod_ident2.html" hreflang="fr" rel="alternate" title="Fran&#231;ais">&nbsp;fr&nbsp;</a> |
+<a href="../ja/mod/mod_ident2.html" hreflang="ja" rel="alternate" title="Japanese">&nbsp;ja&nbsp;</a> |
+<a href="../ko/mod/mod_ident2.html" title="Korean">&nbsp;ko&nbsp;</a></p>
 </div><div class="top"><a href="#page-header"><img src="../images/up.gif" alt="top" /></a></div><div class="section"><h2><a id="comments_section" name="comments_section">Comments</a></h2><div class="warning"><strong>Notice:</strong><br />This is not a Q&amp;A section. Comments placed here should be pointed towards suggestions on improving the documentation or server, and may be removed again by our moderators if they are either implemented or considered invalid/off-topic. Questions on how to manage the Apache HTTP Server should be directed at either our IRC channel, #httpd, on Freenode, or sent to our <a href="http://httpd.apache.org/lists.html">mailing lists</a>.</div>
 <script type="text/javascript"><!--//--><![CDATA[//><!--
 var comments_shortname = 'httpd';
-var comments_identifier = 'http://httpd.apache.org/docs/2.4/mod/mod_ident.html';
+var comments_identifier = 'http://httpd.apache.org/docs/2.4/mod/mod_ident2.html';
 (function(w, d) {
     if (w.location.hostname.toLowerCase() == "httpd.apache.org") {
         d.write('<div id="comments_thread"><\/div>');

@@ -15,7 +15,7 @@
  */
 
 /*
- * mod_ident: Handle RFC 1413 ident request
+ * mod_ident2: Handle RFC 1413 ident request
  * obtained from rfc1413.c
  *
  * rfc1413() speaks a common subset of the RFC 1413, AUTH, TAP and IDENT
